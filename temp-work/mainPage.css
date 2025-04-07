@@ -1,0 +1,242 @@
+.content {
+    position: absolute;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    align-items: center;
+    align-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(240, 208, 165);
+    height: 10%;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.title {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container_container {
+    display: flex;
+    position: relative;
+    width: 70%;
+    height: 30vw;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.container {
+    display: flex;
+    position: inherit;
+    border: 1em solid rgb(240, 208, 165);
+    background-color: rgb(240, 208, 165);
+    width: 100%;
+    padding-left: 1em;
+    height: 90%;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: auto;
+    gap: 1em;
+}
+
+.container1 {
+    background-color: rgb(244, 207, 160);
+    display: absolute;
+    border: 0.1em solid black;
+    aspect-ratio: 1/1;
+    height: 90%;
+}
+
+.container1:hover {
+    background-color: rgb(240, 208, 165);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.container1:active {
+    background-color: rgb(230, 150, 150);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+
+
+body {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(240, 208, 165);
+    height: 10%;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 8.5;
+    height: 100%;
+    width: 70%;
+    overflow: auto;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    flex: 1.5;
+    height: 100%;
+    width: 20%;
+    flex-direction: column;
+    border: 0.1em solid black;
+    border-bottom: 0;
+    background-color: rgb(216, 216, 216);
+}
+
+
+h3 {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h4 {
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+
+.sidebar {
+    background-color: white;
+    border: 0.1em solid black;
+    padding: 0.5em;
+    width: 20vw;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.buttonAlignemt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+
+.search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 91%;
+
+}
+
+.SButton {
+    height: 2em;
+    font-size: 1em;
+    border: 0;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    background-color: rgb(240, 208, 165);
+}
+
+.SButton:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.mainText {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+}
+
+.searchBar {
+    width: 100%;
+    font-size: 1em;
+    height: 2em;
+    border: 0.1em solid black;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    margin-top: 1em;
+}
+
+.loginButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1em;
+    background-color: rgb(240, 208, 165);
+    height: 2em;
+    width: 5em;
+    border: 0;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    margin-top: 1em;
+}
+
+.kartButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1em;
+    background-color: rgb(240, 208, 165);
+    height: 2em;
+    width: 5em;
+    border: 0;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    margin-top: 1em;
+}
